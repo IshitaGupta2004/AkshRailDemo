@@ -16,7 +16,7 @@ def load_lottie_url(url: str):
 # ---------- Load Logo ----------
 # Assuming the logo path is correctly set or removed for a placeholder if not found
 try:
-    logo = Image.open("C:/Users/HP/Downloads/ChatGPT Image Sep 14, 2025, 10_06_41 PM.png")
+    logo = Image.open("Screenshot (4).png")
 except FileNotFoundError:
     st.warning("Logo file not found. Using a placeholder or removing logo for now.")
     logo = None # Set to None if file not found
@@ -474,4 +474,5 @@ elif menu == "About":
 
     st.markdown("---")
     st.write("© 2025 AkshRail. All rights reserved.")
+
 
